@@ -1,0 +1,360 @@
+Practical Assessment -1
+—-----------------------------------------------------------------------------
+
+1.	Create one scoped Application named as Brillio, In this scope create 3 tables named as Brillio Base as a parent, Brillio HR and Brillio Finance as Child tables.
+ - Create fields in Brillio Base (Number(auto number), Name(string)(mandatory,display), Phone(string), Manager(Reference(user)),Groups involved(list-refer to group table),Assignment group(refer-Group), Assignedto(refer-user),country(choice -india,USA,Australia), designation(choice - Sr HR,HR manager,Finance advisor,Finance manager,Architects,Jr developer)
+
+2.	In brillio Hr - all parent fields should come create few fields in Brillio hr -state(choice- open, work in progress,UAT,Testing), ID(string)(mandatory,Display), Address(long string),CMDB(refer -cmdb_ci).
+- create a related list for brillio base, incident table.
+- Name field should not be mandatory
+- Phone field should be mandatory only in this table .
+- In designation only Sr HR,HR manager should be visible
+- Assignment group table should display as HR group.
+- Create 2 sections named as Related info with fields(Incident should refer to incident, Problem(refer to problem table), Resolution info(Resolved by(refer to user),Resolution info(string).
+- Create a process flow for this table based on the state field
+
+3.	In brillio Finance - All parent fields should come create few fields in brillio finance - Date of Purchase(date), Date of sale(date),description(string),
+- Manager field should display mail and phone under manager field.
+- In designation field only Finance advisor, Finance manager should display
+- Manager field should be the display in this table
+- Create Contextual search(for the field description,it should search knowledge and Catalogs)
+- Create a related list for this table from Change, problem
+
+4.	Create views for All 3 tables with table name
+
+5.	Configure the list to display Name, phone, manager
+
+6.	Create 2 Groups accounts  BRillio HR , Brillio Finance add 5 users each in the group and give access to respective groups with respective tables.
+
+7.	Add 2 modules in every application new(should open new record, Open(should open list of records).
+
+8.	Capture this complete configurations in one Update Set and move to next instance. 
+
+
+
+Practical Assessment-2:
+—-------------------------------------------------------------------------------
+
+1.	Create a table Stories(u_stories) this should extend from task(task) table with fields Story number(string), story owner(refer-user), Story location(choice- dev, Prod),Story level(choice- Basic, Moderate, critical), Email(string), category(choice-, Platform, portal, software, hardware,network,database) States(choice- new, open, on hold, under review, UAT, Completed)inprogress, Assignment group(refer-group), Assigned to(Refer-user), Short description(string), Description(string).
+
+2.	SLA:
+
+1.	Name-SLA for software critical:
+24 hour - US/central 
+it should attach to the story whenever Story level is critical, category is software, assignment group is software, state is new.
+It should pause whenever the state is on hold, Stop the SLA whenever the state is completed or the assignment group is not software and Story level is not critical.
+
+2.	Name - SLA for software Basic:
+4 hours - US/Central
+it should attach to the story whenever Story level is critical, category is software, assignment group is software, state is new.
+It should pause whenever the state is on hold, Stop the SLA whenever the state is completed or the assignment group is not software and Story level is not basic.
+
+3.	Name - SLA for software Moderate:
+10 hours - US/Central
+it should attach to the story whenever Story level is critical, category is software, assignment group is software, state is new.
+It should pause whenever state is on hold, Stop the SLA whenever state is completed or assignment group is not software and Story level is not Moderate.
+
+4.	Name-SLA for Hardware critical:
+24 hour - Hongkong
+it should attach to the story whenever Story level is critical, category is Hardware, assignment group is Hardware, state is new.
+It should pause whenever state is on hold, Stop the SLA whenever state is completed or assignment group is not Hardware and Story level is not critical.
+
+5.	Name-SLA for Hardware Basic:
+4 hour - Hong Kong
+it should attach to the story whenever Story level is Basic, category is Hardware, assignment group is Hardware, state is new.
+It should pause whenever state is on hold, Stop the SLA whenever state is completed or the assignment group is not Hardware and Story level is not basic.
+
+6.	Name-SLA for Hardware Moderate:
+10 hour - Hong Kong
+it should attach to the story whenever Story level is Moderate, category is Hardware, assignment group is Hardware, state is new.
+It should pause whenever state is on hold, Stop the SLA whenever state is completed or assignment group is not Hardware and Story level is not Moderate.
+ 
+7.	Name-SLA for Network Critical:
+24 hour - Europe/Paris
+it should attach to the story whenever Story level is Critical, category is Network, assignment group is Network, state is new.
+It should pause whenever the state is on hold, Stop the SLA whenever the state is completed or the assignment group is not Network and Story level is not critical..
+
+8.	Name-SLA for Network Moderate:
+5 hour - Europe/Paris
+it should attach to the story whenever Story level is Moderate, category is Network, assignment group is Network, state is new. It should pause whenever state is on hold, Stop the SLA whenever state is completed or assignment group is not Network and Story level is not Moderate.
+
+9.	Name-SLA for Network Basic:
+3 hour - Europe/Paris
+it should attach to the story whenever Story level is Basic, category is Network, assignment group is Network, state is new.
+It should pause whenever the state is on hold, Stop the SLA whenever the state is completed or the assignment group is not Network and Story level is not basic.
+
+10.	Name-SLA for Database Critical:
+24 hour - Canada/Pacific
+it should attach to the story whenever the Story level is Critical, category is Database, assignment group is Database, state is new.
+It should pause whenever the state is on hold, Stop the SLA whenever the state is completed or the assignment group is not Database and Story level is not critical.
+
+11.	Name-SLA for Database Moderate:
+12 hour - Canada/Pacific
+it should attach to the story whenever Story level is Moderate, category is Database, assignment group is Database, state is new.
+It should pause whenever the state is on hold, Stop the SLA whenever the state is completed or the assignment group is not Database and Story level is not moderate.
+
+12.	Name-SLA for Database Basic:
+3 hour - Canada/Pacific
+it should attach to the story whenever Story level is Basic, category is Database, assignment group is Database, state is new.
+It should pause whenever the state is on hold, Stop the SLA whenever the state is completed or the assignment group is not Database and Story level is not basic.
+
+
+Data lookup definition - Assignment for Stories :
+Create auto assignment for the stories table based on category and story level by using assignment lookup rules
+- matcher fields - category,story level
+- Setter fields - assignment group, Assigned to
+
+Assignment rules :
+
+1.	If category is platform and state new it should assign to ServiceNow platform developers group
+2.	If category is Portal and state is new, Story level is moderate - assign to ServiceNow Portal dev group
+
+
+ACL's:
+
+1.	Create one role named as brillio_stories design all table level ACL's on same role
+2.	This table should be accessible for itil Users also.
+3.	give the write access to assigned to field only for the itil users.
+4.	Give all fields read access to brillio_stories users but not assigned to fields it should be readable only for itil, itil_admin users.
+5.	
+
+
+Import data:
+Create 10 records in the excel sheet for stories table with short description, description, assignment group, category as headers with proper field values import this data into stories table. by creating an import set table, transform maps.
+
+Notifications:
+
+1.	notifications:
+
+ Outbound:
+Send email notification to assignment group whenever story assigned to group 
+1.	Name- Notify user on story assignment
+Subject : Story assigned t group
+Body : Hi assignment group,
+           story has been assigned to your group
+           Details :
+           Number - 
+           Short description :
+           Description :
+    
+ Thanks..
+
+2.	Name - Notify assigned to on story assignment
+subject - Story has been assigned to you
+Body : Hi Assigned to,
+story has been assigned to you
+Details :
+Number - 
+           Short description :
+           Description : 
+Thanks...
+
+3.	Name - Notify assigned to on states changes
+subject -your Story state has been changed to **** 
+Body: Hi Assigned to,
+story state has been changed to ****
+Details :
+Number - 
+Short description :
+Description :
+Thanks…
+
+4.	Name -- Notify story owner on story created.
+Subject : One story created on your behalf
+Body : Hi story owner,
+One story has been created on your behalf.
+Details :
+Number - 
+Short description :
+Description :
+Thanks…
+
+5.	Name -- Notify story owner on story completed.
+Subject : your story completed by assigned to
+Body : Hi story owner,
+your story has been completed by assigned to.
+Details :
+Number - 
+state -
+Short description:
+Description :
+Thanks…
+
+6.	Name -- Notify story owner on story onhold.
+Subject : your story onhold by assigned to
+Body : Hi story owner,
+your story has been onhold by assigned to.
+Details :
+Number - 
+state -
+Short description :
+Description :
+Thanks...
+ 
+
+
+
+
+Practical Assessment -3:
+—---------------------------------------------------
+Task -1:
+---------------------------------------
+1.	Create 4 groups named as HR P1, HR P2, HR P3, HR P4 
+2.	Create 10 user accounts with different names(with proper details in the user account including manager,department,location) add to these groups and give itil role to all the group.
+3.	Create 3 roles named as hr_admin(should be added to HR P1,HR P2), hr_analyst(Should be added to HR P3 ,HR P4),hr_case_user.
+4.	Create 1 New Table named as -- Brillio HR case- it should extend from Task(task)
+
+
+
+ Fields - 
+
+Number(Auto number), 
+
+Requester (reference-User),
+
+Manager(refer-user)(should be dot walk field)
+
+Case Category (choice with none -Payroll,Maternal,Paternal, LOA,onboarding)
+
+ConfigurationItem(Refer-cmdb_Ci),
+
+Service(Refer-cmdb_ci_service),
+
+Location(refer-cmn_location),
+
+Date of created(date)
+
+Email(string)
+
+
+	Is it repeated case(checkbox)
+
+Do you want to Notify(checkbox)
+
+Hr manager(refer-user)
+
+caseImpact(Low impact,Medium impact, High impact)
+
+Case urgency(Low,medium,High)
+
+Priority(1-Low,2-Medium,3-High,4-critical)
+
+
+Case channel(choice with none-from taks table)
+
+state(choice with none-open,under 
+progress,Onhold,resolved,cancelled)
+
+Onhold Reason(choice-waiting for requester,waiting for incident,created problem)
+
+Handling group(refer-group)
+
+Handling User(refer-user)
+
+
+
+
+
+
+
+
+Case short description (string-with suggestion(Payroll issue,Leave request,Paternal leave count)(mandatory)
+
+Description(large-string)
+
+
+
+Contextual search - Knowledge and catalog
+Sections:
+
+1. Related records
+
+Incident(refer -incident)
+
+Change(refer-change)
+
+Problem(refer-problem)
+
+Resolved code(choice- HR help desk, Manual help, Tech support,Other)
+
+Other(string)
+
+Resolution information(large string)
+
+2. Parole
+
+Parole issue type(choice with none-Non credit salary,Less salary,Incentives NC)
+
+Describe clearly(large string)
+
+3.Maternal
+
+Leave start date(date)
+Leave end date(date)
+Would you like to take more leaves(check box)
+No of extra days(string)
+
+4. Paternal
+
+Leave start date(date)
+Leave end date(date)
+Would you like to take more leaves(check box)
+No of extra days(string)
+
+5. LOA
+
+Describe issue(large string)
+
+6.Onboarding
+
+Did you receive joining kit(checkbox)
+Describe issue(large -string)
+Requirements:
+
+1.	Whatever fields in task table use the same fields and change the lable and choices based on the requirement.
+2.	Whenever Handling group is added state automatically move to under progress
+3.	Create response SLA named as - Case response
+-It should be attached when the state is open and Handling group is not filled, It should be completed whenever the assignment group is filled .
+
+4.	Create Resolution SLA named as - P1 resolution for HR P1 - it should be attached whenever state is under progress,assignment is HR P1,it should be paused whenever state is on hold, it should be completed whenever state is resolved or cancelled, It should consider pause time and elapsed time of previous SLA.
+
+5.	Create Resolution SLA named as - P2 resolution for HR P2 - it should be attached whenever state is under progress,assignment is HR P2,it should be paused whenever state is on hold, it should be completed whenever state is resolved or cancelled, It should not consider pause time of previous SLA but it should consider elapsed time.
+
+6.	Create Resolution SLA named as - P3 resolution for HR P3 - it should be attached whenever state is under progress,assignment is HR P3,it should be paused whenever state is on hold, it should be completed whenever state is resolved or cancelled, It should not consider pause time of previous SLA but it should not consider elapsed time. 
+
+7.	Create Resolution SLA named as - P4 resolution for HR P4 - it should be attached whenever state is under progress,assignment is HR P4,it should be paused whenever state is on hold, it should be completed whenever state is resolved or cancelled, It should not consider pause time of previous SLA but it should consider elapsed time. 
+
+8.	Design the priority lookup rules for priority based on case impact, case urgency.
+
+9.	Design assignment rules should work only when user change the field values and inser the record  with matcher fields as case category, case impact and setter fields should be handling group and handling user.
+-	If case category is Payrole,impact low - HR P1
+-	If case category is Maternal, impact medium - HR P2
+-	If case category is Paternal , Impact high - HR P3
+-	If case category is LOA,Impact high - HR P4
+
+
+
+-	
+1.	Design the Application named as Brillio HR case with modules - Create case(new record-Brillio hr case), All cases(list of records - Brillio hr case), Brilio assignment (list of records-brillio assignment rules),Brillio unassigned(assignment empty records),Brillio SLA(it should show sla’s on brillio Hr table),Brillio Ui policies(it should show ui poilicies on Brillio Hr),Brillio CS(show only Client scripts on Brillio HR), Brillio notifications(should show only notification on Brillio Hr) in the same order it should display
+2.	This application should be accessible only to users with HR_admin, Hr_analyst roles users, Brillio CS, Brillio Ui policies,Brillio assignment (modules should be accessible only to users with roles -HR_admin roles).
+3.	Display the section based on the category choices and whenever it is none display only related records should display.
+4.	Requester name should auto populate with logged in user it should not be editable once it is populated only for  new records.
+5.	If user check the Do you want to Notify , Hr manager should become mandatory and when user  submit the record it should send a notification to Hr manager and assignment group only when assignment group is filled ,category is filled and Do you want to Notify is checked with 
+Subject - Category is (dynamic category name)
+Body - Hi HR manager(dynamic)
+ User wants to notify this ticket please check and respond to the ticket
+Details:
+Number - should be hyper link
+Description - dynamic
+Category - dynamic
+Case short description - dynamic
+
+6.	Create a record producer named as Brillio Hr case with variables -Requester(refer-user) should be auto populate with logged in user,Case category(dropdown-with same choices in table)Case impact(dropdown-with same choices in table) , describe case(should be map with case short description), map this variables with respective fields on table .
+7.	Design the complete table level ACL’s on hr_admin, hr_analyst roles only
+8.	Handling group and Handling user should be editable only users with hr_admin role.
+9.	Hr_case_user,hr_admin,hr_analyst role users should access the Brillio hr case record producer.
+10.	Hr_case_user should be able to raise the hr case from self service also and they should access only the fields that are in record producer , and they should be able to see the data only they have created.
+11.	Onhold reason should be displayed and mandatory only when the state is on hold.
+
+
+
