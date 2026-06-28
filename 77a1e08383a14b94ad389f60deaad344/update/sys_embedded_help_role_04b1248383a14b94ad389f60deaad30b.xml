@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="x_1547296_brilli_0.admin" name="x_1547296_brilli_0.admin">48b1248383a14b94ad389f60deaad308</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-22 12:55:26</sys_created_on>
+        <sys_id>04b1248383a14b94ad389f60deaad30b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>48b1248383a14b94ad389f60deaad308</sys_name>
+        <sys_package display_value="Brillio" source="x_1547296_brilli_0">77a1e08383a14b94ad389f60deaad344</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brillio">77a1e08383a14b94ad389f60deaad344</sys_scope>
+        <sys_update_name>sys_embedded_help_role_04b1248383a14b94ad389f60deaad30b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-22 12:55:26</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

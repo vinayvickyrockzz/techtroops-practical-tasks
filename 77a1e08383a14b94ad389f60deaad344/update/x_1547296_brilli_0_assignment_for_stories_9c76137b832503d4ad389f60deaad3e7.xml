@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_1547296_brilli_0_assignment_for_stories">
+    <x_1547296_brilli_0_assignment_for_stories action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <assigned_to display_value="Vinay Tanneru">c62cff9783640310ad389f60deaad30e</assigned_to>
+        <assignment_group display_value="Database" name="Database">287ee6fea9fe198100ada7950d0b1b73</assignment_group>
+        <category>database</category>
+        <number>ASS0001016</number>
+        <order>100</order>
+        <story_level>moderate</story_level>
+        <sys_class_name>x_1547296_brilli_0_assignment_for_stories</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-25 10:00:37</sys_created_on>
+        <sys_id>9c76137b832503d4ad389f60deaad3e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>100</sys_name>
+        <sys_package display_value="Brillio" source="x_1547296_brilli_0">77a1e08383a14b94ad389f60deaad344</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brillio">77a1e08383a14b94ad389f60deaad344</sys_scope>
+        <sys_update_name>x_1547296_brilli_0_assignment_for_stories_9c76137b832503d4ad389f60deaad3e7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-25 10:00:37</sys_updated_on>
+    </x_1547296_brilli_0_assignment_for_stories>
+</record_update>

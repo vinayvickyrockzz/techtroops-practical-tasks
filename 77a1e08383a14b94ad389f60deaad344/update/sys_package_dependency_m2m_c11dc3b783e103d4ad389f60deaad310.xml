@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Data Lookup and Record Matching Support" source="com.glide.data_lookup">4860724618b632108bb255f46a373ab0</dependency>
+        <min_version>1.0.6</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-25 09:19:42</sys_created_on>
+        <sys_id>c11dc3b783e103d4ad389f60deaad310</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Brillio" source="x_1547296_brilli_0">77a1e08383a14b94ad389f60deaad344</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-25 09:19:42</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

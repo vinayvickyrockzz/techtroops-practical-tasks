@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cxs_context_config">
+    <cxs_context_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <cxs_searcher_config display_value="Knowledge and catalog">0a3bb504eb53210070a9666cd206fef1</cxs_searcher_config>
+        <default_config>false</default_config>
+        <default_searcher_resource>all</default_searcher_resource>
+        <name>BRILLIO search knowledge and Catalogs</name>
+        <search_on_tab>true</search_on_tab>
+        <searcher_text>Default Sources</searcher_text>
+        <short_description>search knowledge and Catalogs</short_description>
+        <sys_class_name>cxs_context_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-24 12:41:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>26717a2383618f94ad389f60deaad372</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BRILLIO search knowledge and Catalogs</sys_name>
+        <sys_package display_value="Brillio" source="x_1547296_brilli_0">77a1e08383a14b94ad389f60deaad344</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brillio">77a1e08383a14b94ad389f60deaad344</sys_scope>
+        <sys_update_name>cxs_context_config_26717a2383618f94ad389f60deaad372</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-24 12:41:40</sys_updated_on>
+        <wildcard_search_active>false</wildcard_search_active>
+    </cxs_context_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=26717a2383618f94ad389f60deaad372"/>
+</record_update>

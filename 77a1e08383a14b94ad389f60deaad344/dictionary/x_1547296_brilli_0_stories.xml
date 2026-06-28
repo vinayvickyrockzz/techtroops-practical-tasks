@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6edbfeb3836103d4ad389f60deaad302" extends="task" label="Stories" max_length="40" name="x_1547296_brilli_0_stories" type="collection">
+        <element choice="1" label="Story level" max_length="40" name="story_level" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Basic" sequence="0" value="basic"/>
+                <element inactive_on_update="false" label="critical" sequence="2" value="critical"/>
+                <element inactive_on_update="false" label="Moderate" sequence="1" value="moderate"/>
+            </choice>
+        </element>
+        <element label="Short description" max_length="40" name="short_descriptio0" type="string"/>
+        <element label="Story location" max_length="40" name="story_location" type="string"/>
+        <element choice="1" label="States" max_length="40" name="states" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="inprogress" sequence="6" value="inprogress"/>
+                <element inactive_on_update="false" label="new" sequence="0" value="new"/>
+                <element inactive_on_update="false" label="Completed" sequence="5" value="completed"/>
+                <element inactive_on_update="false" label="on hold" sequence="2" value="on_hold"/>
+                <element inactive_on_update="false" label="UAT" sequence="4" value="uat"/>
+                <element inactive_on_update="false" label="under review" sequence="3" value="under_review"/>
+                <element inactive_on_update="false" label="open" sequence="1" value="open"/>
+            </choice>
+        </element>
+        <element label="Assigned to" max_length="32" name="assigned_t0" reference="sys_user" type="reference"/>
+        <element choice="1" label="category" max_length="40" name="category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="hardware" sequence="3" value="hardware"/>
+                <element inactive_on_update="false" label="software" sequence="2" value="software"/>
+                <element inactive_on_update="false" label="database" sequence="5" value="database"/>
+                <element inactive_on_update="false" label="Platform" sequence="0" value="platform"/>
+                <element inactive_on_update="false" label="portal" sequence="1" value="portal"/>
+                <element inactive_on_update="false" label="network" sequence="4" value="network"/>
+            </choice>
+        </element>
+        <element label="Assignment group" max_length="32" name="assignment_grou0" reference="sys_user_group" type="reference"/>
+        <element label="Description" max_length="40" name="descriptio0" type="string"/>
+        <element choice="1" label="story owner" max_length="40" name="story_owner" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="dev" sequence="0" value="dev"/>
+                <element inactive_on_update="false" label="Prod" sequence="1" value="prod"/>
+                <element inactive_on_update="false" label="System Adminstrator" sequence="0" value="System Adminstrator"/>
+                <element inactive_on_update="false" label="vinay tanneru" sequence="0" value="vinay tanneru"/>
+            </choice>
+        </element>
+        <element label="Email" max_length="40" name="email" type="string"/>
+    </element>
+</database>

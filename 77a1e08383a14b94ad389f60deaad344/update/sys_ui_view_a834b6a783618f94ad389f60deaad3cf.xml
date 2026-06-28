@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>Brillio_Finance</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-24 12:52:30</sys_created_on>
+        <sys_id>a834b6a783618f94ad389f60deaad3cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Brillio Finance</sys_name>
+        <sys_package display_value="Brillio" source="x_1547296_brilli_0">77a1e08383a14b94ad389f60deaad344</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brillio">77a1e08383a14b94ad389f60deaad344</sys_scope>
+        <sys_update_name>sys_ui_view_a834b6a783618f94ad389f60deaad3cf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-24 12:52:30</sys_updated_on>
+        <title>Brillio Finance</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

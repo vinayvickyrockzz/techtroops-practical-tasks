@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="x_1547296_brilli_0_brillio_base" section_id="aba3b66783618f94ad389f60deaad303" sys_domain="global" table="x_1547296_brilli_0_brillio_base" version="3" view="Brillio_Base_view">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-24 12:51:18</sys_created_on>
+            <sys_id>8fe37e6783618f94ad389f60deaad343</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_1547296_brilli_0_brillio_base" display_value="x_1547296_brilli_0_brillio_base" name="x_1547296_brilli_0_brillio_base" sys_domain="global" view="e3a3766783618f94ad389f60deaad366">aba3b66783618f94ad389f60deaad303</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-24 12:51:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-24 12:51:18</sys_created_on>
+            <sys_id>0fe37e6783618f94ad389f60deaad344</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_1547296_brilli_0_brillio_base" display_value="x_1547296_brilli_0_brillio_base" name="x_1547296_brilli_0_brillio_base" sys_domain="global" view="e3a3766783618f94ad389f60deaad366">aba3b66783618f94ad389f60deaad303</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-24 12:51:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>designation</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-24 12:51:18</sys_created_on>
+            <sys_id>07e37e6783618f94ad389f60deaad390</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_1547296_brilli_0_brillio_base" display_value="x_1547296_brilli_0_brillio_base" name="x_1547296_brilli_0_brillio_base" sys_domain="global" view="e3a3766783618f94ad389f60deaad366">aba3b66783618f94ad389f60deaad303</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-24 12:51:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>phone</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-24 12:51:18</sys_created_on>
+            <sys_id>83e37e6783618f94ad389f60deaad391</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_1547296_brilli_0_brillio_base" display_value="x_1547296_brilli_0_brillio_base" name="x_1547296_brilli_0_brillio_base" sys_domain="global" view="e3a3766783618f94ad389f60deaad366">aba3b66783618f94ad389f60deaad303</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-24 12:51:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>brillio_incident</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-24 12:51:18</sys_created_on>
+            <sys_id>03e37e6783618f94ad389f60deaad392</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_1547296_brilli_0_brillio_base" display_value="x_1547296_brilli_0_brillio_base" name="x_1547296_brilli_0_brillio_base" sys_domain="global" view="e3a3766783618f94ad389f60deaad366">aba3b66783618f94ad389f60deaad303</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-24 12:51:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-24 12:51:18</sys_created_on>
+            <sys_id>8fe37e6783618f94ad389f60deaad392</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_1547296_brilli_0_brillio_base" display_value="x_1547296_brilli_0_brillio_base" name="x_1547296_brilli_0_brillio_base" sys_domain="global" view="e3a3766783618f94ad389f60deaad366">aba3b66783618f94ad389f60deaad303</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-24 12:51:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>x_1547296_brilli_0_brillio_base</caption>
+            <header>false</header>
+            <name>x_1547296_brilli_0_brillio_base</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-24 12:50:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aba3b66783618f94ad389f60deaad303</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1547296_brilli_0_brillio_base</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Brillio" source="x_1547296_brilli_0">77a1e08383a14b94ad389f60deaad344</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Brillio">77a1e08383a14b94ad389f60deaad344</sys_scope>
+            <sys_update_name>sys_ui_section_aba3b66783618f94ad389f60deaad303</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-24 12:50:15</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Brillio Base view" name="Brillio_Base_view">e3a3766783618f94ad389f60deaad366</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

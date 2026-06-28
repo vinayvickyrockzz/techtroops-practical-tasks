@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="resolution_info" label="Resolution info" language="en" table="x_1547296_brilli_0_brillio_hr">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>resolution_info</element>
+            <help/>
+            <hint/>
+            <label>Resolution info</label>
+            <language>en</language>
+            <name>x_1547296_brilli_0_brillio_hr</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-24 08:35:47</sys_created_on>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Resolution info</sys_name>
+            <sys_package display_value="Brillio" source="x_1547296_brilli_0">77a1e08383a14b94ad389f60deaad344</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Brillio">77a1e08383a14b94ad389f60deaad344</sys_scope>
+            <sys_update_name>sys_documentation_x_1547296_brilli_0_brillio_hr_resolution_info_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-24 08:35:49</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

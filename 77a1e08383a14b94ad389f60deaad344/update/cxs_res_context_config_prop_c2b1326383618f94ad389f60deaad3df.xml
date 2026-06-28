@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cxs_res_context_config_prop">
+    <cxs_res_context_config_prop action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <choices/>
+        <cxs_res_context_config display_value="knowledge">c2b1be2383618f94ad389f60deaad32b</cxs_res_context_config>
+        <default_value/>
+        <description>A Condition to apply before searching. The condition must be an encoded query.</description>
+        <id>knowledge_sr.conditions</id>
+        <name>Condition</name>
+        <sys_class_name>cxs_res_context_config_prop</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-24 12:41:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c2b1326383618f94ad389f60deaad3df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Condition</sys_name>
+        <sys_package display_value="Brillio" source="x_1547296_brilli_0">77a1e08383a14b94ad389f60deaad344</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brillio">77a1e08383a14b94ad389f60deaad344</sys_scope>
+        <sys_update_name>cxs_res_context_config_prop_c2b1326383618f94ad389f60deaad3df</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-24 12:41:40</sys_updated_on>
+        <type>conditions</type>
+        <value/>
+    </cxs_res_context_config_prop>
+</record_update>
