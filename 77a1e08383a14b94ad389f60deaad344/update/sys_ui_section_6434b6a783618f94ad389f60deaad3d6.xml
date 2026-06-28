@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="x_1547296_brilli_0_brillio_finance" section_id="6434b6a783618f94ad389f60deaad3d6" sys_domain="global" table="x_1547296_brilli_0_brillio_finance" version="3" view="Brillio_Finance">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-24 12:53:27</sys_created_on>
+            <sys_id>6e647ea783618f94ad389f60deaad3cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_1547296_brilli_0_brillio_finance" display_value="x_1547296_brilli_0_brillio_finance" name="x_1547296_brilli_0_brillio_finance" sys_domain="global" view="a834b6a783618f94ad389f60deaad3cf">6434b6a783618f94ad389f60deaad3d6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-24 12:53:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-24 12:53:27</sys_created_on>
+            <sys_id>ea647ea783618f94ad389f60deaad3cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_1547296_brilli_0_brillio_finance" display_value="x_1547296_brilli_0_brillio_finance" name="x_1547296_brilli_0_brillio_finance" sys_domain="global" view="a834b6a783618f94ad389f60deaad3cf">6434b6a783618f94ad389f60deaad3d6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-24 12:53:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>designation</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-24 12:53:27</sys_created_on>
+            <sys_id>6a647ea783618f94ad389f60deaad3ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_1547296_brilli_0_brillio_finance" display_value="x_1547296_brilli_0_brillio_finance" name="x_1547296_brilli_0_brillio_finance" sys_domain="global" view="a834b6a783618f94ad389f60deaad3cf">6434b6a783618f94ad389f60deaad3d6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-24 12:53:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>manager</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-24 12:53:27</sys_created_on>
+            <sys_id>e6647ea783618f94ad389f60deaad3cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_1547296_brilli_0_brillio_finance" display_value="x_1547296_brilli_0_brillio_finance" name="x_1547296_brilli_0_brillio_finance" sys_domain="global" view="a834b6a783618f94ad389f60deaad3cf">6434b6a783618f94ad389f60deaad3d6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-24 12:53:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_of_purchase</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-24 12:53:27</sys_created_on>
+            <sys_id>66647ea783618f94ad389f60deaad3d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_1547296_brilli_0_brillio_finance" display_value="x_1547296_brilli_0_brillio_finance" name="x_1547296_brilli_0_brillio_finance" sys_domain="global" view="a834b6a783618f94ad389f60deaad3cf">6434b6a783618f94ad389f60deaad3d6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-24 12:53:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>groups_involved</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-24 12:53:27</sys_created_on>
+            <sys_id>e2647ea783618f94ad389f60deaad3d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_1547296_brilli_0_brillio_finance" display_value="x_1547296_brilli_0_brillio_finance" name="x_1547296_brilli_0_brillio_finance" sys_domain="global" view="a834b6a783618f94ad389f60deaad3cf">6434b6a783618f94ad389f60deaad3d6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-24 12:53:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-24 12:53:27</sys_created_on>
+            <sys_id>62647ea783618f94ad389f60deaad3d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_1547296_brilli_0_brillio_finance" display_value="x_1547296_brilli_0_brillio_finance" name="x_1547296_brilli_0_brillio_finance" sys_domain="global" view="a834b6a783618f94ad389f60deaad3cf">6434b6a783618f94ad389f60deaad3d6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-24 12:53:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_of_sale</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-24 12:53:27</sys_created_on>
+            <sys_id>ee647ea783618f94ad389f60deaad3d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_1547296_brilli_0_brillio_finance" display_value="x_1547296_brilli_0_brillio_finance" name="x_1547296_brilli_0_brillio_finance" sys_domain="global" view="a834b6a783618f94ad389f60deaad3cf">6434b6a783618f94ad389f60deaad3d6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-24 12:53:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>x_1547296_brilli_0_brillio_finance</caption>
+            <header>false</header>
+            <name>x_1547296_brilli_0_brillio_finance</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-24 12:52:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6434b6a783618f94ad389f60deaad3d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1547296_brilli_0_brillio_finance</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Brillio" source="x_1547296_brilli_0">77a1e08383a14b94ad389f60deaad344</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Brillio">77a1e08383a14b94ad389f60deaad344</sys_scope>
+            <sys_update_name>sys_ui_section_6434b6a783618f94ad389f60deaad3d6</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-24 12:52:30</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Brillio Finance" name="Brillio_Finance">a834b6a783618f94ad389f60deaad3cf</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

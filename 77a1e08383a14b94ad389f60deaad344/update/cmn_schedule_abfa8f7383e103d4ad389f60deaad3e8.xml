@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cmn_schedule">
+    <cmn_schedule action="INSERT_OR_UPDATE">
+        <cal_type/>
+        <calendar_name>CANADA PACIFIC SCHEDULE</calendar_name>
+        <description/>
+        <document/>
+        <document_key/>
+        <is_legacy_schedule>true</is_legacy_schedule>
+        <label>CANADA PACIFIC SCHEDULE</label>
+        <name>CANADA PACIFIC SCHEDULE</name>
+        <parent/>
+        <plural_label/>
+        <read_only>false</read_only>
+        <sys_class_name>cmn_schedule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-25 09:10:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>abfa8f7383e103d4ad389f60deaad3e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CANADA PACIFIC SCHEDULE</sys_name>
+        <sys_package display_value="Brillio" source="x_1547296_brilli_0">77a1e08383a14b94ad389f60deaad344</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brillio">77a1e08383a14b94ad389f60deaad344</sys_scope>
+        <sys_update_name>cmn_schedule_abfa8f7383e103d4ad389f60deaad3e8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-25 09:10:57</sys_updated_on>
+        <time_zone>Canada/Pacific</time_zone>
+        <type/>
+    </cmn_schedule>
+</record_update>

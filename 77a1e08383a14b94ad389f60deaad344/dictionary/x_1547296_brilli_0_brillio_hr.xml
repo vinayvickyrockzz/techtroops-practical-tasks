@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5d62acc383a14b94ad389f60deaad3a6" extends="x_1547296_brilli_0_brillio_base" label="Brillio HR " max_length="40" name="x_1547296_brilli_0_brillio_hr" type="collection">
+        <element label="Resolved By" max_length="32" name="resolved_by" reference="sys_user" type="reference"/>
+        <element display="true" label="ID" mandatory="true" max_length="40" name="id" type="string"/>
+        <element label="Brillio Problem" max_length="32" name="brillio_problem" reference="problem" type="reference"/>
+        <element label="Address" max_length="1000" name="address" type="string"/>
+        <element label="CMDB" max_length="32" name="cmdb" reference="cmdb_ci" type="reference"/>
+        <element label="Resolution info" max_length="40" name="resolution_info" type="string"/>
+        <index name="index">
+            <element name="brillio_problem"/>
+        </index>
+        <index name="index2">
+            <element name="cmdb"/>
+        </index>
+        <index name="index3">
+            <element name="resolved_by"/>
+        </index>
+    </element>
+</database>

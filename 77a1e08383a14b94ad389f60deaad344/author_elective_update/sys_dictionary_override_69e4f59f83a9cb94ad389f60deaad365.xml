@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override">
+    <sys_dictionary_override action="DELETE">
+        <attributes/>
+        <attributes_override>false</attributes_override>
+        <base_table>x_1547296_brilli_0_brillio_base</base_table>
+        <calculation/>
+        <calculation_override>false</calculation_override>
+        <default_value/>
+        <default_value_override>false</default_value_override>
+        <dependent/>
+        <dependent_override>false</dependent_override>
+        <display_override>false</display_override>
+        <element>name</element>
+        <mandatory>false</mandatory>
+        <mandatory_override>true</mandatory_override>
+        <name>x_1547296_brilli_0_brillio_finance</name>
+        <read_only>false</read_only>
+        <read_only_override>false</read_only_override>
+        <reference_qual/>
+        <reference_qual_override>false</reference_qual_override>
+        <sys_class_name>sys_dictionary_override</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-23 13:37:34</sys_created_on>
+        <sys_id>69e4f59f83a9cb94ad389f60deaad365</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>name</sys_name>
+        <sys_package display_value="Brillio" source="x_1547296_brilli_0">77a1e08383a14b94ad389f60deaad344</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brillio">77a1e08383a14b94ad389f60deaad344</sys_scope>
+        <sys_update_name>sys_dictionary_override_69e4f59f83a9cb94ad389f60deaad365</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-23 13:37:34</sys_updated_on>
+    </sys_dictionary_override>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brillio">77a1e08383a14b94ad389f60deaad344</application>
+        <file_path/>
+        <instance_id>04acfad0fb02de901feef633beefdccb</instance_id>
+        <instance_name>dev290326</instance_name>
+        <name>sys_dictionary_override_69e4f59f83a9cb94ad389f60deaad365</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override"><sys_dictionary_override action="INSERT_OR_UPDATE"><attributes/><attributes_override>false</attributes_override><base_table>x_1547296_brilli_0_brillio_base</base_table><calculation/><calculation_override>false</calculation_override><default_value/><default_value_override>false</default_value_override><dependent/><dependent_override>false</dependent_override><display_override>false</display_override><element>name</element><mandatory>false</mandatory><mandatory_override>true</mandatory_override><name>x_1547296_brilli_0_brillio_finance</name><read_only>false</read_only><read_only_override>false</read_only_override><reference_qual/><reference_qual_override>false</reference_qual_override><sys_class_name>sys_dictionary_override</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-23 13:37:34</sys_created_on><sys_id>69e4f59f83a9cb94ad389f60deaad365</sys_id><sys_mod_count>0</sys_mod_count><sys_name>name</sys_name><sys_package display_value="Brillio" source="x_1547296_brilli_0">77a1e08383a14b94ad389f60deaad344</sys_package><sys_policy/><sys_scope display_value="Brillio">77a1e08383a14b94ad389f60deaad344</sys_scope><sys_update_name>sys_dictionary_override_69e4f59f83a9cb94ad389f60deaad365</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-23 13:37:34</sys_updated_on></sys_dictionary_override></record_update>]]></payload>
+        <payload_hash>-1226056460</payload_hash>
+        <record_name>name</record_name>
+        <reverted_from/>
+        <source>f7a1e08383a14b94ad389f60deaad347</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-23 13:37:34</sys_created_on>
+        <sys_id>43e4799f83a9cb94ad389f60deaad304</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ef4b358970000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-23 13:37:34</sys_updated_on>
+        <type>Dictionary Entry Override</type>
+        <update_guid>03e4799ffba9cb949494c19f4cb09703</update_guid>
+        <update_guid_history>03e4799ffba9cb949494c19f4cb09703:-1226056460</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-23 13:37:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary_override">sys_dictionary_override</sys_db_object>
+        <sys_id>bd05d8f59d3a47a4bcf3a676cb37f4c4</sys_id>
+        <sys_metadata>69e4f59f83a9cb94ad389f60deaad365</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>name</sys_name>
+        <sys_package display_value="Brillio" source="x_1547296_brilli_0">77a1e08383a14b94ad389f60deaad344</sys_package>
+        <sys_parent display_value="x_1547296_brilli_0_brillio_finance">4fa2280783a14b94ad389f60deaad3c8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Brillio">77a1e08383a14b94ad389f60deaad344</sys_scope>
+        <sys_scope_delete display_value="">351b3567f14a4dcb95e1bee199cc9f09</sys_scope_delete>
+        <sys_update_name>sys_dictionary_override_69e4f59f83a9cb94ad389f60deaad365</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_override_69e4f59f83a9cb94ad389f60deaad365">43e4799f83a9cb94ad389f60deaad304</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-23 13:37:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="f47935e383a94f94ad389f60deaad30e" sys_domain="global" table="x_1547296_brilli_0_brillio_hr" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-24 08:35:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>457935e383a94f94ad389f60deaad314</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1547296_brilli_0_brillio_hr" name="x_1547296_brilli_0_brillio_hr" sys_domain="global" view="Default view">f47935e383a94f94ad389f60deaad30e</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1547296_brilli_0_brillio_hr" sys_domain="global" view="Default view">0a62acc383a14b94ad389f60deaad3c0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-24 08:35:51</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-24 08:35:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cd7935e383a94f94ad389f60deaad315</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1547296_brilli_0_brillio_hr" name="x_1547296_brilli_0_brillio_hr" sys_domain="global" view="Default view">f47935e383a94f94ad389f60deaad30e</sys_ui_form>
+            <sys_ui_section caption="RELATED INFO" display_value="RELATED INFO" name="x_1547296_brilli_0_brillio_hr" sys_domain="global" view="Default view">3479f1e383a94f94ad389f60deaad3fd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-24 08:35:51</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-24 08:35:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>017935e383a94f94ad389f60deaad31d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1547296_brilli_0_brillio_hr" name="x_1547296_brilli_0_brillio_hr" sys_domain="global" view="Default view">f47935e383a94f94ad389f60deaad30e</sys_ui_form>
+            <sys_ui_section caption="Resolution info" display_value="Resolution info" name="x_1547296_brilli_0_brillio_hr" sys_domain="global" view="Default view">787935e383a94f94ad389f60deaad300</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-24 08:35:51</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1547296_brilli_0_brillio_hr</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-24 08:35:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f47935e383a94f94ad389f60deaad30e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1547296_brilli_0_brillio_hr</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Brillio" source="x_1547296_brilli_0">77a1e08383a14b94ad389f60deaad344</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Brillio">77a1e08383a14b94ad389f60deaad344</sys_scope>
+            <sys_update_name>sys_ui_form_sections_f47935e383a94f94ad389f60deaad30e</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-24 08:35:50</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

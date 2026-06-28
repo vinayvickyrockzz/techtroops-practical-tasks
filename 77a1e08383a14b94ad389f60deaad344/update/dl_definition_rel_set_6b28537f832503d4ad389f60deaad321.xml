@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="dl_definition_rel_set">
+    <dl_definition_rel_set action="INSERT_OR_UPDATE">
+        <always_replace>true</always_replace>
+        <dl_definition display_value="Assignment for Stories ">770753fb832503d4ad389f60deaad3d6</dl_definition>
+        <matcher_table>x_1547296_brilli_0_assignment_for_stories</matcher_table>
+        <matcher_table_field>assigned_to</matcher_table_field>
+        <source_table>x_1547296_brilli_0_stories</source_table>
+        <source_table_field>assigned_t0</source_table_field>
+        <sys_class_name>dl_definition_rel_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-25 10:08:25</sys_created_on>
+        <sys_id>6b28537f832503d4ad389f60deaad321</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>assigned_t0</sys_name>
+        <sys_package display_value="Brillio" source="x_1547296_brilli_0">77a1e08383a14b94ad389f60deaad344</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brillio">77a1e08383a14b94ad389f60deaad344</sys_scope>
+        <sys_update_name>dl_definition_rel_set_6b28537f832503d4ad389f60deaad321</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-25 10:11:11</sys_updated_on>
+    </dl_definition_rel_set>
+</record_update>

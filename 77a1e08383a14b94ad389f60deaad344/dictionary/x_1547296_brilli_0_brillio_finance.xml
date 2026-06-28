@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="cfa2280783a14b94ad389f60deaad3c5" extends="x_1547296_brilli_0_brillio_base" label="Brillio Finance " max_length="40" name="x_1547296_brilli_0_brillio_finance" type="collection">
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <element label="Date of Purchase" max_length="255" name="date_of_purchase" type="glide_date"/>
+        <element label="Date of sale" max_length="255" name="date_of_sale" type="glide_date"/>
+        <element label="Brillio Problem" max_length="32" name="brillio_problem" reference="problem" type="reference"/>
+        <element label="Brillio change" max_length="32" name="brillio_change" reference="change_request" type="reference"/>
+        <index name="index">
+            <element name="brillio_change"/>
+        </index>
+        <index name="index2">
+            <element name="brillio_problem"/>
+        </index>
+    </element>
+</database>

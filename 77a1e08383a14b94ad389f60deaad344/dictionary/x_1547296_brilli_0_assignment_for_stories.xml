@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" db_object_id="c11d83b783e103d4ad389f60deaad3fd" extends="dl_matcher" label="Assignment for Stories " max_length="40" name="x_1547296_brilli_0_assignment_for_stories" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" choice_field="category" choice_table="x_1547296_brilli_0_stories" label="category" max_length="40" name="category" type="choice">
+            <choice/>
+        </element>
+        <element choice="3" choice_field="story_level" choice_table="x_1547296_brilli_0_stories" label="story level" max_length="40" name="story_level" type="choice">
+            <choice/>
+        </element>
+        <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element label="Assignment group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="assignment_group"/>
+        </index>
+    </element>
+</database>

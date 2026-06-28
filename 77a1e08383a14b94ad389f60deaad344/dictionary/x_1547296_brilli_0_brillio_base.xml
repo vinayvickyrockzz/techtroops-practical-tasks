@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="7cf16c8383a14b94ad389f60deaad30d" label="Brillio Base " max_length="40" name="x_1547296_brilli_0_brillio_base" type="collection">
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="ref_ac_columns=email,phone" display="true" label="Manager" max_length="32" name="manager" reference="sys_user" type="reference"/>
+        <element default="88e3187c99a503107f44118bcc9c62ae" label="Assignment group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
+        <element choice="1" choice_field="state" choice_table="incident" label="state" max_length="40" name="state" type="choice">
+            <choice/>
+        </element>
+        <element label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Phone" max_length="40" name="phone" type="string"/>
+        <element choice="1" label="designation" max_length="40" name="designation" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Finance manager" sequence="3" value="finance_manager"/>
+                <element inactive="true" inactive_on_update="true" label="Sr HR" sequence="0" value="sr_hr"/>
+                <element inactive_on_update="false" label="Finance advisor" sequence="2" value="finance_advisor"/>
+                <element inactive="true" inactive_on_update="true" label="HR manager" sequence="1" value="hr_manager"/>
+                <element inactive="true" inactive_on_update="true" label="Jr developer" sequence="5" value="jr_developer"/>
+                <element inactive="true" inactive_on_update="true" label="Architects" sequence="4" value="architects"/>
+            </choice>
+        </element>
+        <element label="Brillio incident" max_length="32" name="brillio_incident" reference="incident" type="reference"/>
+        <element label="Groups involved" max_length="1024" name="groups_involved" reference="sys_user_group" type="glide_list"/>
+        <element choice="1" label="country" max_length="40" name="country" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Australia" sequence="2" value="australia"/>
+                <element inactive_on_update="false" label="USA" sequence="1" value="usa"/>
+                <element inactive_on_update="false" label="india" sequence="0" value="india"/>
+            </choice>
+        </element>
+        <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user_group" type="reference"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="assignment_group"/>
+        </index>
+        <index name="index3">
+            <element name="brillio_incident"/>
+        </index>
+        <index name="index4">
+            <element name="manager"/>
+        </index>
+        <index name="index5">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cxs_res_context_config_prop">
+    <cxs_res_context_config_prop action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <choices/>
+        <cxs_res_context_config display_value="knowledge">c2b1be2383618f94ad389f60deaad32b</cxs_res_context_config>
+        <default_value>false</default_value>
+        <description>Excludes pinned articles from the result set. Should only be set to 'true' if pinned articles are included in this Searcher.</description>
+        <id>knowledge_sr.exclude_pinned</id>
+        <name>Exclude Pinned Articles</name>
+        <sys_class_name>cxs_res_context_config_prop</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-24 12:41:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>82b1326383618f94ad389f60deaad3e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Exclude Pinned Articles</sys_name>
+        <sys_package display_value="Brillio" source="x_1547296_brilli_0">77a1e08383a14b94ad389f60deaad344</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brillio">77a1e08383a14b94ad389f60deaad344</sys_scope>
+        <sys_update_name>cxs_res_context_config_prop_82b1326383618f94ad389f60deaad3e5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-24 12:41:41</sys_updated_on>
+        <type>boolean</type>
+        <value>false</value>
+    </cxs_res_context_config_prop>
+</record_update>

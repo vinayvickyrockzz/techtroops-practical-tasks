@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description>custom application role</description>
+        <elevated_privilege>true</elevated_privilege>
+        <federated_id>uVjVNq68cEMz5AnkngDW6nnN5vRPQ5DebWdCsAS/S4E=</federated_id>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_1547296_brilli_0.brillio_stories</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>brillio_stories </suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-25 11:24:07</sys_created_on>
+        <sys_id>be5923ff83a503d4ad389f60deaad3e3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_1547296_brilli_0.brillio_stories</sys_name>
+        <sys_package display_value="Brillio" source="x_1547296_brilli_0">77a1e08383a14b94ad389f60deaad344</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brillio">77a1e08383a14b94ad389f60deaad344</sys_scope>
+        <sys_update_name>sys_user_role_be5923ff83a503d4ad389f60deaad3e3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-25 11:24:26</sys_updated_on>
+    </sys_user_role>
+</record_update>
